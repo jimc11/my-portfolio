@@ -1,5 +1,5 @@
 import React from 'react'
-import image from 'C:/udemy-node-course/portfolio/src/img/aloha-lake.jpg'
+import image from '../img/aloha-lake.jpg'
 import "../App.css"
 
 export default function Home(){
