@@ -27,8 +27,8 @@ export default function About(){
         return <div>Loading... </div>
     }
     return (
-        <main className="relative ">
-            <img src={coast} alt="california coast" className="absolute w-full"/>
+        <main className="relative bg-blue-100">
+            {/* <img src={coast} alt="california coast" className="absolute w-full"/> */}
             <div className="p-10 lg:pt-48 container mx-auto relative">
                 <section className="bg-blue-700 opacity-90 rounded-lg shadow-2xl lg:flex p-20">
                     <img 
