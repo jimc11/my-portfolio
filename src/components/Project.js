@@ -11,6 +11,12 @@ export default function Project(){
             description,
             projectType,
             link,
+            picture{
+                asset->{
+                    _id,
+                    url
+                }
+            },
             tags
         }`).then((data)=>setProjectData(data)).catch(console.error)
     }, []);
@@ -36,10 +42,9 @@ export default function Project(){
                             >{project.title}</a>
                         </h3>
                         <div className="text-gray-500 text-xs space-x-4">    
-                            {/* <span>
-                                <strong className="font-bold">Title</strong>:{" "}
-                                {project.title}
-                            </span>  */}
+                           
+                            <img src={project.picture.asset.url}></img>
+                         
                             <span>
                                 <strong className="font-bold">Finished on</strong>:{" "}
                                 {new Date(project.date).toLocaleDateString()}

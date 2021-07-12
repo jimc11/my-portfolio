@@ -18,6 +18,11 @@ export default{
             type: "string"
         },
         {
+            name: "picture",
+            type: "image"
+
+        },
+        {
             name:"description",
             type:"text"
         },
