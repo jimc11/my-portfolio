@@ -43,7 +43,7 @@ export default function Project(){
                         </h3>
                         <div className="text-gray-500 text-xs space-x-4">    
                            
-                            <img src={project.picture.asset.url}></img>
+                            <img className="border"src={project.picture.asset.url}></img>
                          
                             <span>
                                 <strong className="font-bold">Finished on</strong>:{" "}

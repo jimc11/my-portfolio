@@ -30,7 +30,7 @@ export default function About(){
         <main className="relative ">
             <img src={coast} alt="california coast" className="absolute w-full"/>
             <div className="p-10 lg:pt-48 container mx-auto relative">
-                <section className="bg-blue-700 rounded-lg shadow-2xl lg:flex p-20">
+                <section className="bg-blue-700 opacity-90 rounded-lg shadow-2xl lg:flex p-20">
                     <img 
                         src={urlFor(author.authorImage).url()} 
                         className="rounded w-32 h-32 lg:w-64 lg:h-64 mr-8" 
