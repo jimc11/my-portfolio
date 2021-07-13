@@ -7,11 +7,9 @@ export default function Home(){
         <main>
                 <img src={image} alt="Aloha Lake" className="absolute object-cover w-full h-full" />
             
-                <section className="relative flex-row  justify-right px-5 h-14 lg:pt-5 ">
+                <section className="relative flex-row  justify-right px-5 h-14 lg:pt-4 ">
                     <h1 className="text-6xl text-white font-bold cursive leading-none lg:leading-snug home-name"> Hi, I'm James.</h1>
-                        <a className="px-8 text-2xl text-white" href="/project">
-                            Thank you for visiting my page! Click here to see some of my projects.
-                        </a>
+                    <h2 className="text-2xl text-white  font-bold cursive leading-none">Thanks for visiting! Use the navbar to see my projects.</h2>
                 </section>
 
                 
