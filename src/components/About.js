@@ -26,6 +26,10 @@ export default function About(){
     }
     return (
         <main className="relative bg-blue-100">
+            <head>
+                <title>James Robert Crowley</title>
+                <link rel="pine" href="../img/pine.jpg"></link>
+            </head>
             {/* <img src={coast} alt="california coast" className="absolute w-full"/> */}
             <div className="p-10 lg:pt-48 container mx-auto relative">
                 <section className="bg-blue-700 opacity-90 rounded-lg shadow-2xl lg:flex p-20">

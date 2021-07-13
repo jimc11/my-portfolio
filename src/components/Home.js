@@ -4,7 +4,12 @@ import "../App.css"
 
 export default function Home(){
     return (
+    
         <main>
+            <head>
+                <title>James Robert Crowley</title>
+                <link rel="pine" href="../img/pine.jpg"></link>
+            </head>
                 <img src={image} alt="Aloha Lake" className="absolute object-cover w-full h-full" />
             
                 <section className="relative flex-row  justify-right px-5 h-14 lg:pt-4 ">
