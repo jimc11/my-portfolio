@@ -8,7 +8,7 @@ export default function NavBar(){
        <header className="bg-blue-800">
             
             <title>James Robert Crowley</title>
-            <link rel="pine" href="../img/pine.jpg"></link>
+            
             
            <div className="container mx-auto flex justify-between">
               <nav className ="flex">
